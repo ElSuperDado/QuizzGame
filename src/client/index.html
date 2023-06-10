@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <input id="jwt" type="text" placeholder="JWT" required>
+        <input id="username" type="text" placeholder="Username" required>
+        <button id="send">Join</button>
+
+        <div id="leaderboard">
+            <h2>Leaderboard</h2>
+            <div id="leaders"></div>
+        </div>
+
+        <div id="content">
+            <div id="players">
+                <h2>Players</h2>
+                <div id="player-list"></div>
+            </div>
+            <div id="game">
+                <h2>Game</h2>
+                <p id="question"></p>
+                <div id="answers"></div>
+            </div>
+            <div id="infolog">
+                <h2>Logs</h2>
+                <div id="logs"></div>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="http://localhost:30992/socket.io/socket.io.js"></script>
+    <script src="./client.js"></script>
+</html>

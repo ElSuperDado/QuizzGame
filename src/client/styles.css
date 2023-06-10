@@ -1,0 +1,34 @@
+#content, #answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.answers-btn {
+    min-width: 70px;
+}
+
+#content > div, #leaderboard {
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 0;
+    min-width: 20vw;
+    height:min-content;
+}
+
+#leaderboard {
+    width: 34vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#game {
+
+    flex-grow: 2;
+}
+
+h2 {
+    margin-top: 0px;
+}
